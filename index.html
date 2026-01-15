@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heal · Dream · Build</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,800;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="bg-animation"></div>
+    <div class="progress-bar" id="progressBar"></div>
+
+    <nav id="navbar">
+        <div class="logo">Heal · Dream · Build</div>
+        <ul class="nav-links">
+            <li><a href="#heal">Heal</a></li>
+            <li><a href="#dream">Dream</a></li>
+            <li><a href="#build">Build</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h1 class="hero-title">Transform Your Vision<br>Into Reality</h1>
+        <p class="hero-subtitle">A powerful framework to heal from doubt, dream with clarity, and build something meaningful</p>
+        
+        <div class="framework-preview">
+            <div class="preview-card" onclick="document.getElementById('heal').scrollIntoView({behavior: 'smooth'})">
+                <h3><i data-lucide="heart-pulse"></i> Heal</h3>
+                <p>Overcome obstacles</p>
+            </div>
+            <div class="preview-card" onclick="document.getElementById('dream').scrollIntoView({behavior: 'smooth'})">
+                <h3><i data-lucide="sparkles"></i> Dream</h3>
+                <p>Craft your vision</p>
+            </div>
+            <div class="preview-card" onclick="document.getElementById('build').scrollIntoView({behavior: 'smooth'})">
+                <h3><i data-lucide="rocket"></i> Build</h3>
+                <p>Bring it to life</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="heal" class="section">
+        <div class="section-header">
+            <div class="section-number">01 / HEAL</div>
+            <h2 class="section-title">Heal Your Mind</h2>
+            <p class="section-description">Before you can dream big, you must first heal from the wounds that hold you back. Recognize and overcome the barriers that stand between you and your potential.</p>
+        </div>
+
+        <div class="obstacles-grid">
+            <div class="obstacle-card">
+                <i data-lucide="shield" class="obstacle-icon"></i>
+                <h3>Self-Doubt</h3>
+                <p>That nagging voice telling you "you're not good enough" or "who are you to do this?" It whispers fears and amplifies every past failure. Self-doubt makes you question your abilities before you even begin, creating a mental barrier that feels insurmountable.</p>
+            </div>
+
+            <div class="obstacle-card">
+                <i data-lucide="user-x" class="obstacle-icon"></i>
+                <h3>Dream-Crushers</h3>
+                <p>Well-meaning friends, family, or colleagues who say "be realistic" or "that's impossible." These external voices reflect their own limitations onto your aspirations. They project their fears and missed opportunities, trying to keep you in a comfortable zone that fits their worldview.</p>
+            </div>
+
+            <div class="obstacle-card">
+                <i data-lucide="alert-circle" class="obstacle-icon"></i>
+                <h3>Inadequacy</h3>
+                <p>The feeling that you lack the skills, experience, or credentials to pursue your dream. Impostor syndrome makes you focus on what you don't have rather than what you do. You compare your beginning to someone else's middle, forgetting that everyone starts somewhere.</p>
+            </div>
+        </div>
+
+        <div class="overcome-section">
+            <h3>The Path to Healing</h3>
+            <div class="overcome-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h4>Acknowledge Your Feelings</h4>
+                        <p>Give yourself permission to feel doubt, fear, and inadequacy. These emotions are valid signals, not truth. By naming them, you separate yourself from them and recognize they're temporary states, not permanent truths about your capabilities.</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h4>Reframe Your Narrative</h4>
+                        <p>Challenge negative self-talk by asking "Is this actually true?" Replace "I can't" with "I'm learning to." Your past doesn't define your future. Every expert was once a beginner. Your journey is unique, and comparison is the thief of joy.</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h4>Create Supportive Boundaries</h4>
+                        <p>Limit exposure to dream-crushers. Seek out believers and fellow dreamers who energize you. Surround yourself with people who see your potential and celebrate your progress. Your environment shapes your mindset more than you realize.</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h4>Build Evidence of Competence</h4>
+                        <p>Start small. Take one tiny action toward your dream. Document your wins, no matter how small. Each step builds confidence and proves to yourself that you are capable. Progress, not perfection, is the goal.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dream" class="section">
+        <div class="section-header">
+            <div class="section-number">02 / DREAM</div>
+            <h2 class="section-title">Craft Your Vision</h2>
+            <p class="section-description">With a healed mind, you can dream clearly. Break down your vision into an actionable timeline and refine it with clarity and purpose.</p>
+        </div>
+
+        <div class="timeline-container">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h4>Vision Clarity (Week 1-2)</h4>
+                    <p>Define what you want to create. Why does it matter? Who will it serve? Get crystal clear on your end goal. Write it down in vivid detail. Visualize success. This is your North Star.</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h4>Research & Validation (Week 3-4)</h4>
+                    <p>Study similar solutions. Talk to potential users. Understand the landscape. What already exists? What's missing? Validate that your idea solves a real problem people care about.</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h4>Core Features (Week 5-6)</h4>
+                    <p>Identify the essential components. What's the minimum viable version? Strip away the nice-to-haves and focus on the must-haves. Simplicity is the ultimate sophistication.</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h4>Resource Mapping (Week 7-8)</h4>
+                    <p>What skills, tools, time, and money do you need? What do you already have? What can you learn? Who can help? Create a realistic inventory of your resources and gaps.</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h4>Action Plan (Week 9-10)</h4>
+                    <p>Break your dream into specific, measurable milestones. Create a timeline with deadlines. Identify dependencies. Build accountability. Make it concrete and achievable.</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+        </div>
+
+        <div class="ai-assistant">
+            <h3>AI Dream Architect</h3>
+            <p>Share your dream idea below, and let AI help you think through it with clarity and structure.</p>
+            
+            <div class="ai-input-container">
+                <textarea 
+                    id="dreamInput" 
+                    class="ai-input" 
+                    placeholder="Describe your dream or idea here... What do you want to create? Who will it help? Why does it matter to you?"
+                ></textarea>
+                <button class="ai-button" id="analyzeBtn">
+                    <span>Analyze My Dream</span>
+                </button>
+                <div id="aiResponse" class="ai-response"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="build" class="section">
+        <div class="section-header">
+            <div class="section-number">03 / BUILD</div>
+            <h2 class="section-title">Build & Deliver</h2>
+            <p class="section-description">Transform your refined dream into a tangible solution. Follow a proven framework to build systematically and deliver value to the world.</p>
+        </div>
+
+        <div class="framework-grid">
+            <div class="framework-phase">
+                <div class="phase-number">1</div>
+                <h3>Prototype</h3>
+                <ul>
+                    <li>Create the simplest version that demonstrates your core idea</li>
+                    <li>Focus on functionality over aesthetics</li>
+                    <li>Get it working, even if it's rough</li>
+                    <li>Use available tools and resources</li>
+                    <li>Don't overthink—start building</li>
+                </ul>
+            </div>
+
+            <div class="framework-phase">
+                <div class="phase-number">2</div>
+                <h3>Test & Iterate</h3>
+                <ul>
+                    <li>Share your prototype with real users</li>
+                    <li>Gather honest feedback without defensiveness</li>
+                    <li>Identify what works and what doesn't</li>
+                    <li>Make improvements based on insights</li>
+                    <li>Repeat this cycle rapidly</li>
+                </ul>
+            </div>
+
+            <div class="framework-phase">
+                <div class="phase-number">3</div>
+                <h3>Refine & Scale</h3>
+                <ul>
+                    <li>Polish the user experience</li>
+                    <li>Improve reliability and performance</li>
+                    <li>Add features that users actually need</li>
+                    <li>Build systems that can handle growth</li>
+                    <li>Document processes for consistency</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="delivery-section">
+            <h3>Delivering to People</h3>
+            <div class="delivery-methods">
+                <div class="delivery-card">
+                    <i data-lucide="smartphone" class="delivery-icon"></i>
+                    <h4>Digital Platforms</h4>
+                    <p>Launch a website, app, or online service. Make it accessible 24/7 from anywhere in the world.</p>
+                </div>
+
+                <div class="delivery-card">
+                    <i data-lucide="handshake" class="delivery-icon"></i>
+                    <h4>Direct Outreach</h4>
+                    <p>Connect personally with your target audience. Build relationships and trust one person at a time.</p>
+                </div>
+
+                <div class="delivery-card">
+                    <i data-lucide="megaphone" class="delivery-icon"></i>
+                    <h4>Marketing & Awareness</h4>
+                    <p>Tell your story authentically. Use social media, content, and word-of-mouth to spread the message.</p>
+                </div>
+
+                <div class="delivery-card">
+                    <i data-lucide="graduation-cap" class="delivery-icon"></i>
+                    <h4>Education & Training</h4>
+                    <p>Teach others how to use your solution. Create tutorials, guides, and support systems.</p>
+                </div>
+
+                <div class="delivery-card">
+                    <i data-lucide="refresh-cw" class="delivery-icon"></i>
+                    <h4>Feedback Loops</h4>
+                    <p>Stay connected to your users. Continuously improve based on their evolving needs and experiences.</p>
+                </div>
+
+                <div class="delivery-card">
+                    <i data-lucide="users" class="delivery-icon"></i>
+                    <h4>Community Building</h4>
+                    <p>Create spaces where users connect with each other. Foster a community around your solution.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
